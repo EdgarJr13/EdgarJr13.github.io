@@ -1,0 +1,69 @@
+html, body {
+    min-height: 100%
+}
+
+body {
+    background-color:whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: mistyrose;
+    padding: 5px;
+}
+
+p {
+    background-color: mistyrose
+}
+
+.menu {
+    list-style: none;
+    text-align: center;
+}
+
+.active {
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    display: inline-block;
+}
+
+.active:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+table {
+    background-color: mistyrose;
+    border-color: rgb(255, 201, 195);
+    border-radius: 2px;
+}
+
+td {
+    text-align: center;
+}
+
+img {
+    width: 22px;
+}
+
+.perfil{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.description {
+    background-color: mistyrose;
+}
+
+.fixed-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 157px;
+}
